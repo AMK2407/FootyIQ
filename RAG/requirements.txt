@@ -1,0 +1,22 @@
+# --- LLM and Core Frameworks ---
+langchain
+langchain-community
+langchain-huggingface
+huggingface-hub  
+transformers    
+
+
+# --- Vector Database and Search ---
+faiss-cpu
+chromadb
+
+# --- Ollama Integration ---
+langchain-ollama
+
+# --- Data Processing and Embeddings ---
+pandas
+sentence-transformers
+
+# --- UI and Environment ---
+python-dotenv
+streamlit
