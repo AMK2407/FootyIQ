@@ -25,13 +25,15 @@ from langchain_core.output_parsers import StrOutputParser
 # =====================================================================
 # Configuration
 # =====================================================================
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# goes from RAG/football_rag_frontend.py => repo root
 
 class Config:
-    """Centralized configuration for the RAG system."""
     HF_MODEL_REPO_ID = "deepseek-ai/DeepSeek-V3.2"
     HF_API_TOKEN = os.environ.get("HUGGING_FACE_API_TOKEN")
     EMBEDDING_MODEL_NAME = "sentence-transformers/all-mpnet-base-v2"
-    DB_PATH = "../Data/football_FAISS/"
+
+    DB_PATH = os.path.join(BASE_DIR, "Data", "football_FAISS")
     DATA_FILE = os.path.join(DB_PATH, "football_data.parquet")
     INDEX_FILE = os.path.join(DB_PATH, "football.index")
 
