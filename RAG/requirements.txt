@@ -1,6 +1,3 @@
-# --- Python ---
-python-3.11
-
 # --- LLM and Core Frameworks ---
 langchain
 langchain-community
