@@ -1,0 +1,40 @@
+# ===============================
+# Core App & UI
+# ===============================
+streamlit>=1.32
+altair==4.2.2
+
+# ===============================
+# Data Processing
+# ===============================
+pandas>=1.5.0
+numpy>=1.21.0
+pyarrow
+
+# ===============================
+# Machine Learning
+# ===============================
+scikit-learn>=1.0.0
+joblib>=1.2.0
+xgboost>=1.5.0
+
+# ===============================
+# RAG / LLM Stack
+# ===============================
+langchain
+langchain-community
+langchain-huggingface
+huggingface-hub
+transformers
+sentence-transformers
+
+# ===============================
+# Vector Search
+# ===============================
+faiss-cpu
+# chromadb   # enable only if you actually use it
+
+# ===============================
+# Utilities
+# ===============================
+python-dotenv
