@@ -1,2 +1,2 @@
 Deployement Link:
-https://footyiq-app.streamlit.app/
+https://footyiq.streamlit.app/
